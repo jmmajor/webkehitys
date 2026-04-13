@@ -6,6 +6,9 @@
         <meta name="description" content="Mansionin esittely">
         <link rel="stylesheet" href="./tyylit/tyyli.css">
         <style>
+            p {
+                color: rgba(0, 81, 255, 0.753);
+            }
             body {
                 background-color: blanchedalmond;
             }
@@ -13,12 +16,13 @@
                 font-size: 2em;
             }
             .content-box {
-                padding: 20px;
-                margin: 10px;
-                background-color: #f0f0f0;
+                padding: 35px;
+                margin: 20px;
+                background-color: hsla(231, 54%, 83%, 0.596);
                 border: 1px solid #ccc;
 }
             table {
+                margin: 15px;
                 border: 1px solid black;
             }
             th {
@@ -27,18 +31,15 @@
                 background-color: palevioletred;
             }
             form {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
+                box-sizing: border-box;
+                gap: 5px;
     }
-            label {
-      font-weight: bold;
-    }
+
         </style>
         <title>Jimin Mansioni</title>
 </head>
         <body>
-                <H1> Tervetuloa upeaan majaani</H1>
+                <h1>Tervetuloa upeaan majaani</h1>
                 <div class="content-box">
                     <h3>Esittely</h3>
                     <p>Tässä olen minä:</p>
@@ -58,21 +59,21 @@
             <th>Miksi</th>
         </tr>
         <tr>
-            <td >Websivuston kehitys</td>
+            <td>Websivuston kehitys</td>
             <td>Verkkosivuja</td>
             <td>Tärkeää</td>
         </tr>
         <tr>
             <td>ICT</td>
-            <td>Verkkoliikennettä</td>
+            <td>Tietoliikennettä ja tietotekniikkaa</td>
             <td>Tärkeää</td>
         </tr>
         </table>
             <h2>Vieraskirja</h2>
             <form>
-                <label for="name">Nimesi:</label>
+                <label style="font-weight: bold;" for="name">Nimesi:</label>
                 <input type="text" id="name" name="name"><br><br>
-                <label for="email">Sähköpostisi:</label>
+                <label style="font-weight: bold;" for="email">Sähköpostisi:</label>
                 <input type="email" id="email" name="email"><br><br>
                 <input type="submit" value="Submit">
             </form>
