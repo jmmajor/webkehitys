@@ -4,11 +4,14 @@ Täältä löydät HTML ja CSS harjoitukset
 
 ## Harjoitukset (Päivitetään tehtyjen harjoitusten mukaan)
 
-### Eka (Workshop HTML Basics)
+### Eka (Workshop 1: Introduction to HTML)
 - HTML perusteet ja rakenne
-- [Linkki](https://jmmajor.github.io/webkehitys/eka/)
+- [Linkki sivustolle](https://jmmajor.github.io/webkehitys/eka/)
 
-### Toka (Workshop CSS Fundamentals)
+### Toka (Workshop 2: CSS Fundamentals)
 - CSS tyylitys
-- [Linkki](https://jmmajor.github.io/webkehitys/toka/)
+- [Linkki sivustolle](https://jmmajor.github.io/webkehitys/toka/)
 
+### Kolmas (Workshop 3: Advanced CSS)
+- Edistynyttä CSS tyylittelyitä
+- [Linkki sivustolle](https://jmmajor.github.io/webkehitys/kolmas/)
